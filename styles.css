@@ -609,6 +609,10 @@ span.circle-text {
   margin-top: 6px;
 }
 
+.twitter-mobile {
+  display: none;
+}
+
 /* Mobile layout styles */
 
 @media (max-width: 640px) {
@@ -745,7 +749,9 @@ span.circle-text {
   }
 
   .posts {
-    margin-left: 8px;;
+    margin-left: 8px;
+    margin-top: 8px;;
+    margin-bottom: 8px;
   }
 
   .date, .scrollbar {
@@ -754,6 +760,10 @@ span.circle-text {
 
   .twitter {
     display: none;
+  }
+
+  .devices {
+    height: 472px;
   }
 
   .devices-heading {
@@ -771,6 +781,58 @@ span.circle-text {
   
   .footer-logo-wrapper {
     margin-left: 63px;
+  }
+
+  .footer-logo {
+    height: 29px;
+    width: 29px;
+  }
+
+  .footer-logo-text {
+    font-size: 17px;
+  }
+
+  .footer {
+    height: 45px;
+  }
+
+  .social-media {
+    background-image: none;
+  }
+
+  .post-text {
+    margin-right: 8px;
+    height: 230px;
+    width: 297px;
+  }
+
+  .social-video {
+    width: 310px;
+  }
+
+  .twitter-mobile {
+    display: flex;
+    height: 232px;
+    background-image: url("./assets/images/twitter-mob-bg.png");  
+  }
+
+  .social-media {
+    height: 472px
+  }
+
+  .tw-ic {
+    width: 158px;
+    height: 133px;
+  }
+
+  .twitter-icon-mobile {
+    width: fit-content;
+    height: fit-content;
+    align-self: center;
+  }
+
+  .main-wrapper {
+    max-width: 640px
   }
 }
 
