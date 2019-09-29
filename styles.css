@@ -711,6 +711,67 @@ span.circle-text {
   .working-wrapper {
     height: 385px;
   }
+
+  .icon-left img, .icon-middle img {
+    margin-right: 51px;
+  }
+
+  .icon-right img {
+    margin-right: 71px;
+  }
+
+  .icon-left .icon-text, .icon-middle .icon-text {
+    margin-left: 0;
+  }
+
+  .icon-right .icon-text {
+    margin-left: 50px;
+  }
+  
+  .icon {
+    border: 0;
+  }
+
+  .main-video-play-button {
+    right: 297px;
+  }
+
+  .main-video-play-icon {
+    right: 316px;;
+  }
+
+  .social-heading {
+    display: none;
+  }
+
+  .posts {
+    margin-left: 8px;;
+  }
+
+  .date, .scrollbar {
+    display: none;
+  }
+
+  .twitter {
+    display: none;
+  }
+
+  .devices-heading {
+    margin-left: 29px;
+    margin-bottom: 22px;
+  }
+
+  .list-wrapper {
+    display: none;
+  }
+
+  .devices-content-wrapper {
+    margin-left: 52px;
+  }
+  
+  .footer-logo-wrapper {
+    margin-left: 63px;
+  }
 }
 
 
@@ -720,7 +781,6 @@ span.circle-text {
 
 
 
-}
 
 
 
