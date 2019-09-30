@@ -348,6 +348,10 @@ span.heading-yellow {
   flex-direction: column;
 }
 
+.twitter-mobile-wrapper {
+  display: none;
+}
+
 .twitter .plus-icon {
   top: 192px;
   left: 309px;
@@ -999,6 +1003,10 @@ span.circle-text {
   .submit-btn:focus {
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
+  }
+
+  .twitter-mobile-wrapper {
+    display: block;
   }
 
   .input {
