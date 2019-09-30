@@ -146,6 +146,7 @@ header {
 .header-video {
   width: 550px;
   height: 327px;
+  object-fit: cover;
 }
 
 .video {
@@ -159,8 +160,8 @@ header {
   width: 67px;
   height: 67px;
   position: absolute;
-  right: 242px;
-  top: 130px;
+  right: 243px;
+  top: 129px;
 }
 
 .main-video-play-button:hover {
@@ -174,7 +175,7 @@ header {
   position: absolute;
   right: 263px;
   top: 146px;
-  width: 19px;
+  width: 20px;
   height: 34px;
   cursor: pointer;
 }
@@ -494,7 +495,6 @@ span.heading-yellow {
   margin-left: 348px;
 }
 
-
 .devices-content-wrapper {
   display: flex;
   max-width: 1022px;
@@ -611,6 +611,7 @@ span.circle-text {
 
 .twitter-mobile {
   display: none;
+
 }
 
 /* Mobile layout styles */
@@ -737,11 +738,11 @@ span.circle-text {
   }
 
   .main-video-play-button {
-    right: 297px;
+    right: 278px;
   }
 
   .main-video-play-icon {
-    right: 316px;;
+    right: 298px;
   }
 
   .social-heading {
@@ -821,8 +822,8 @@ span.circle-text {
   }
 
   .tw-ic {
-    width: 158px;
-    height: 133px;
+    width: 166px;
+    height: 159px;
   }
 
   .twitter-icon-mobile {
@@ -907,8 +908,109 @@ span.circle-text {
     right: 453px;
   }
 
-}
+  .twitter-mobile {
+    justify-content: space-between;
+  }
 
+  .twitter-cloud-first {
+    background-image: url("./assets/images/twitter-cloud.svg");
+    width: 284px;
+    height: 42px;
+    border-radius: 10px;
+  }
+
+  .twitter-cloud-second {
+    background-image: url("./assets/images/twitter-cloud-second-mob.png");
+    width: 284px;
+    height: 42px;
+    border-radius: 10px;
+  }
+
+  .twitter-cloud-third {
+    background-image: url("./assets/images/twitter-cloud-third-mob.png");
+    width: 284px;
+    height: 42px;
+    border-radius: 10px;
+  }
+
+  .message, .author {
+    font-size: 13px;
+    letter-spacing: 0px;
+    color: #8f8e8e;
+    font-family: "Arial";
+  }
+
+  .input {
+    display: flex;
+  }
+
+  .twitter-input {
+    width: 201px;
+    height: 25px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    background-color: #ffffff;
+    border-top: 1px solid rgba(0,0,0,0.15);
+    border-bottom: 1px solid rgba(0,0,0,0.15);
+    border-left: 1px solid rgba(0,0,0,0.15);
+    border-right: 0;
+  }
+
+  .twitter-cloud {
+    margin-bottom: 14px;
+  }
+
+  .message {
+    text-align: center;
+    margin-right: 12px;
+    padding-top: 8px;
+  }
+
+  .author {
+    margin-top: 2px;
+    margin-left: 30px;
+  }
+
+  .tw-ic {
+    margin-top: 49px;
+    margin-left: 78px
+  }
+
+  .twitter-messages {
+    margin-top: 26px;
+    margin-right: 32px;
+  }
+
+  .submit-btn {
+    width: 71px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border: 0;
+    cursor: pointer;
+    font-size: 15px;
+    letter-spacing: 0px;
+    color: #ffffff;
+    font-family: "Arial";
+    background-image: linear-gradient(0deg, #e5b64e 0%, #d49210 100%);
+
+   
+  }
+
+  .submit-btn:focus {
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+  }
+
+  .input {
+    position: absolute;
+    right: 30px;
+    bottom: 8px;
+  }
+  
+  .twitter-mobile-wrapper {
+    position: relative;
+  }
+}
 
 
 

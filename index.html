@@ -7,7 +7,7 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.css">
   <link rel="stylesheet" href="styles.css">
-  <title>Document</title>
+  <title>The Yalow</title>
 </head>
 
 <body>
@@ -48,7 +48,8 @@
         </div>
         <div class="main-wrapper">
           <div class="video">
-            <video class="header-video" poster="./assets/images/video/video.png" width="550" height="327" controls>
+            <!-- <video class="header-video" poster="./assets/images/video/video.png" width="550" height="327" controls> -->
+              <video class="header-video" poster="./assets/images/birds-video-poster.png" controls>
               <source src="#">
               Your browser does not support the video tag.
             </video>
@@ -114,12 +115,31 @@
         <div class="month">april</div>
       </div>
       <input class="scrollbar" type="range" name="scrollbar" id="scrollbar">
-      <div class="twitter-mobile">
+      <div class="twitter-mobile-wrapper">
+        <div class="twitter-mobile">
         <div class="twitter-icon-mobile">
-          <img class="tw-ic" src="./assets/images/twitter-icon-mob.svg" alt="twitter" height="133" width="158">
+          <img class="tw-ic" src="./assets/images/twitter-mobile.svg" alt="twitter" height="159" width="166">
         </div>
-        <div class="twitter-messages"></div>
+        <div class="twitter-messages">
+          <article class="twitter-cloud twitter-cloud-first">
+            <p class="message">Daily Mobile UI Design Inspiration #1</p>
+            <p class="author">via @cssauthor</p>
+          </article>
+          <article class="twitter-cloud twitter-cloud-second">
+              <p class="message">Daily Mobile UI Design Inspiration #1</p>
+              <p class="author">via @cssauthor</p>
+          </article>
+          <article class="twitter-cloud twitter-cloud-third">
+              <p class="message">Daily Mobile UI Design Inspiration #1</p>
+              <p class="author">via @cssauthor</p>
+          </article>
+        </div>
       </div>
+      <form class="input" action="index.html" method="GET">
+          <input class="twitter-input" type="text">
+          <input class="submit-btn" type="submit" value="Tweet">
+        </form>
+    </div>
     </div>
     <section class="devices">
       <div class=devices-heading>Lorem ipsum dolor sit amet</div>
