@@ -834,6 +834,79 @@ span.circle-text {
   .main-wrapper {
     max-width: 640px
   }
+
+  .icon-left img {
+    height: 61px;
+    width: 89px;
+    margin-top: 34px;
+    margin-right: 81px;
+    margin-bottom: 20px;
+  }
+
+  .icon-middle img {
+    width: 67px;
+    height: 69px;
+    margin-top: 31px;
+    margin-right: 67px;
+  }
+
+  .icon-right img {
+    width: 68px;
+    height: 69px;
+    margin-top: 30px;
+    margin-right: 80px;
+    margin-bottom: 17px;
+  }
+
+  .icon-middle .icon-text {
+    margin-left: 31px;
+  }
+
+  .icon-right .icon-text {
+    margin-left: 64px;
+  }
+
+  .icons {
+    height: 173px;
+  }
+
+  .post-text {
+    height: 234px;
+    margin-right: 10px;
+    width: 300px;
+  }
+
+  .post-text p {
+    line-height: 34px;
+  }
+  
+  .play-button {
+    right: 120px;
+    top: 93px;
+  }
+
+  .play-icon {
+    top: 109px;
+    right: 139px;
+  }
+
+  .footer-logo-wrapper {
+    margin-left: 68px;
+  }
+
+  .social-video, .social-video video {
+    height: 234px;
+  }
+
+  .devices-content-wrapper {
+    margin-left: 57px;
+  }
+
+  .its-free-wrapper {
+    bottom: 176px;
+    right: 453px;
+  }
+
 }
 
 
