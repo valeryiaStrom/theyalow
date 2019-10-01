@@ -86,6 +86,9 @@ header {
 .header-and-slider-wrapper {
   background: url("./assets/images/Layer\ 20.png");
   display: flex;
+  -webkit-box-shadow: inset 0px -4px 5px 0px rgba(124,114,28,1);
+  -moz-box-shadow: inset 0px -4px 5px 0px rgba(124,114,28,1);
+  box-shadow: inset 0px -4px 5px 0px rgba(124,114,28,1);
 }
 
 .nav-item:hover {
@@ -238,6 +241,9 @@ span.heading-yellow {
   display: flex;
   justify-content: center;
   background-image: url("./assets/images/advantages_bg.png");
+  -webkit-box-shadow: 0px 3px 5px 0px rgba(170,142,28,1);
+  -moz-box-shadow: 0px 3px 5px 0px rgba(170,142,28,1);
+  box-shadow: 0px 3px 5px 0px rgba(170,142,28,1);
 }
 
 .icon {
@@ -604,6 +610,9 @@ span.circle-text {
 .footer {
   background-image: url("./assets/images/footer-bg.png");
   height: 67px;
+  -webkit-box-shadow: 0px -4px 5px 0px rgba(27,27,27,1);
+  -moz-box-shadow: 0px -4px 5px 0px rgba(27,27,27,1);
+  ox-shadow: 0px -4px 5px 0px rgba(27,27,27,1);
 }
 
 .footer-logo-wrapper {
@@ -889,6 +898,9 @@ span.circle-text {
 
   .icons {
     height: 173px;
+    -webkit-box-shadow: 0px -8px 5px 0px rgba(174,173,166,1);
+    -moz-box-shadow: 0px -8px 5px 0px rgba(174,173,166,1);
+    box-shadow: 0px -8px 5px 0px rgba(174,173,166,1);
   }
 
   .post-text {
