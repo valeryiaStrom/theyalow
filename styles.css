@@ -105,6 +105,14 @@ header {
   cursor: pointer;
 }
 
+.second img {
+  margin-top: 9px;
+}
+
+.third img {
+  margin-top: 9px;
+}
+
 .nav-item a {
   color: #9b7d08;
   font-size: 17px;
@@ -474,6 +482,14 @@ span.heading-yellow {
 
 .scrollbar::-webkit-slider-thumb {
   -webkit-appearance: none;
+  width: 197px;
+  height: 15px;
+  border-radius: 7px;
+  background-color: #ec9e03;
+  cursor: pointer;
+}
+
+.scrollbar::-moz-range-thumb {
   width: 197px;
   height: 15px;
   border-radius: 7px;
